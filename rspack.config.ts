@@ -26,7 +26,7 @@ export default defineConfig({
     watchFiles: [path.resolve(__dirname, "src")],
   },
   output: {
-    // You need to set a unique value that is not equal to other applications
+    path: path.resolve(__dirname, "dist"),
     uniqueName: "music_library1",
     // publicPath must be configured if using manifest
     publicPath: "http://localhost:8081/",
