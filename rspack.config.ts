@@ -29,7 +29,7 @@ export default defineConfig({
     path: path.resolve(__dirname, "dist"),
     uniqueName: "music_library1",
     // publicPath must be configured if using manifest
-    publicPath: "http://localhost:8081/",
+    publicPath: "/",
   },
 
   experiments: {
