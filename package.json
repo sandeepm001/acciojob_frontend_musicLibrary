@@ -2,9 +2,9 @@
   "name": "music-library1",
   "version": "0.0.1",
   "scripts": {
-     "build": "cross-env NODE_ENV=production rspack build --output-path public",
+    "build": "cross-env NODE_ENV=production rspack build --output-path public",
     "build:dev": "NODE_ENV=development rspack build",
-    "build:start": "cd dist && rspack serve",
+    "build:start": "cd public && rspack serve --port 8081",
     "start": "cross-env NODE_ENV=development rspack serve"
   },
   "devDependencies": {
